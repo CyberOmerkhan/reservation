@@ -1,0 +1,247 @@
+.login input[type = "text"], .login input[type = "password"]{
+	width: 35%;
+	border: none;
+	outline: none;
+	padding: 7px;
+	margin-right: 20px;
+}
+.registration form input[type = "text"], .registration form input[type = "password"]{
+	border: none;
+	outline: none;
+	border: solid 1px #f9f9f9;
+	padding: 10px;
+	margin-top: 20px;
+	width: 20%;
+}
+.find-password input[type = "text"]{
+	width: 77%;
+	padding: 8px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #e7ecf2;
+	min-width: 100%;
+}
+.header{
+	background-color: #3b5999;
+	font: bold normal 200% sans-serif;
+	color: #fff;
+	height: 130px;
+}
+.header h1{
+	padding: 50px 0 0 10%;
+	width: 300px;
+	margin-right: 0;
+}
+.login{
+	width: 700px;
+	float: right;
+	margin: -3.2% 15% 0 0;
+}
+.form{
+	float: right;
+	margin-right: -100px;
+	width: 500px;
+}
+.btn{
+	background-color: #667baf;
+	cursor: pointer;
+	padding: 7px;
+	color: #fff;
+}
+.forgot{
+	text-align: right;
+	float: right;
+	margin-top: 25px;
+	margin-right: -305px;
+}
+.forgot a{
+	font-family: 'trebuchet ms';
+	font-size: 0.35em;
+	color: #e3dddd;
+	text-decoration: none;
+}
+.img{
+	margin: -40px 150px 0 60px;
+	float: left;
+}
+.img img{
+	width: 650px;
+}
+.registration{
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.registration h1{
+	color: #2b333c;
+	font-size: 350%;
+	font-family: 'century gothic';
+	font-weight: 1100;
+	margin: 0 0 7px 0;
+}
+.registration h3{
+	font-weight: 400;
+	word-spacing: 10px;
+}
+.registration form button{
+	font-size: 1.2em;
+	background-color: #65a64c;
+	padding: 10px 25px;
+	color: #fff;
+	outline: none;
+	border-radius: 10px;
+}
+.find-password{
+	padding: 5%;
+	background-color: #f9f9f9;
+	margin: 0 520px 0 500px;
+}
+.return{
+	margin-left: 630px;
+	margin-top: -45px;
+}
+.mlogin{
+	display: none;
+}
+.button{
+	background-color: #667baf;
+	cursor: pointer;
+	padding: 7px;
+	color: #fff;
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1366px){
+	.registration{
+		display: none;
+	}
+	hr{
+		width: 107%;
+		border: none;
+		outline: none;
+		border: solid 1px #b3b3b3;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.mregistration form input[type = "text"], .mregistration form input[type = "password"]{
+		margin-left: 4%;
+		width: 94%;
+		margin-bottom: 5%;
+		padding: 9px;
+	}
+	.mlogin input[type = "text"], .mlogin input[type = "password"]{
+		width: 35%;
+		border: none;
+		outline: none;
+		padding: 7px;
+		margin: 0 0 0 0;
+	}
+	.login{
+		display: none;
+	}
+	.mlogin{
+		display: block;
+	}
+	.header{
+		height: 30%;
+		width: 100%;
+		float: none;
+		padding: 20% 0 0 10%;
+	}
+	.header h1{
+		margin: 0;
+		padding: 0;
+		font-size: 150%;
+	}
+	.form{
+		float: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		float: left;
+	}
+	.mlogin{
+		float: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.mregistration{
+		width: 100%;
+		text-align: left;
+		margin: 0;
+		padding: 0;
+	}
+	.img{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 5%;
+	}
+	.img img{
+		width: 100%;
+	}
+	.forgot{
+		text-align: left;
+		float: left;
+		margin-right: 0;
+		margin-top: -4%;
+		margin-left: 5%;
+	}
+	.forgot a{
+		font-family: 'trebuchet ms';
+		font-size: 0.8em;
+		color: #e3dddd;
+		text-decoration: none;
+		color: #bcbc5f;
+	}
+	.find-password{
+		margin: 0;
+		padding: 0;
+	}
+	.mregistration form button{
+		font-size: 1.2em;
+		background-color: #65a64c;
+		color: #fff;
+		outline: none;
+		border-radius: 4px;
+		width: 98%;
+		margin-left: 4.5%;
+		margin-top: -5%;
+		outline: none;
+		border: none;
+		padding: 10px 25px;
+	}
+	#hrtext{
+		text-align: center;
+	}
+	.btn{
+		font-size: 1.2em;
+		margin-top: 6%;
+		float: none;
+		width: 98%;
+		padding: 10px 25px;
+		outline: none;
+		border: none;
+		margin-left: 4.5%;
+		border-radius: 4px;
+	}
+	.find-password{
+		margin-left: 2%;
+		margin: 0;
+		width: 105%;
+		padding: 3%;
+	}
+	.return{
+		margin: 7% 0 0 0;
+		text-align: center;
+	}
+	.button{
+		margin: 0;
+	}
+}
